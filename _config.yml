@@ -2,6 +2,9 @@
 title: scannedmedia
 timezone: America/Los_Angeles
 collections:
+  portfolio:
+    title: Portfolio
+    output: true
   posts:
     title: Posts
     output: true
