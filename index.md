@@ -1,7 +1,7 @@
 ---
 title: Welcome
 position: 0
-layout: page
+layout: default
 ---
 
 # yo yo yo
