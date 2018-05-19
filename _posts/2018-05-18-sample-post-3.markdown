@@ -1,8 +1,8 @@
 ---
 title: Sample Post 3
 date: 2018-05-18 20:21:00 -07:00
-Image: "/uploads/design.png"
-Image Caption: Yo that's a shank.
+image: "/uploads/design.png"
+caption: Yo that's a shank.
 ---
 
 # Sample Post 3
