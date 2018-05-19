@@ -2,6 +2,7 @@
 title: Sample Post 2
 date: 2018-05-18 20:19:00 -07:00
 image: "/uploads/design.png"
+Image Caption: Some high quality yellow
 ---
 
 # Sample Post 2
