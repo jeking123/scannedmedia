@@ -18,6 +18,7 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
+    thumb image: ''
     image: ''
     caption: ''
 - scope:
@@ -25,4 +26,12 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    path: ''
+    type: portfolio
+  values:
+    layout: portfolio
+    project type: ['','']
+    header image: ''
+    caption: ''
 permalink: pretty
