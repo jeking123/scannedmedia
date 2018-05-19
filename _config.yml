@@ -18,7 +18,7 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
-    thumb image: ''
+    thumb_image: ''
     image: ''
     caption: ''
 - scope:
@@ -30,11 +30,11 @@ defaults:
     path: ''
     type: portfolio
   values:
-    layout: portfolio
-    project type:
+    layout: portfolios
+    project_type:
     - ''
     - ''
     date: ''
-    header image: ''
+    header_image: ''
     caption: ''
 permalink: pretty
