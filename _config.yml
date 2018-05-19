@@ -31,7 +31,9 @@ defaults:
     type: portfolio
   values:
     layout: portfolio
-    project type: ['','']
+    project type:
+    - ''
+    - ''
     date: ''
     header image: ''
     caption: ''
