@@ -1,6 +1,7 @@
 ---
 title: Sample Post 1
 date: 2018-05-18 19:09:00 -07:00
+thumb image: "/uploads/design-thumb.png"
 image: "/uploads/design-679401.png"
 caption: Yarg Pencils Maty
 ---
