@@ -32,6 +32,7 @@ defaults:
   values:
     layout: portfolio
     project type: ['','']
+    date: ''
     header image: ''
     caption: ''
 permalink: pretty
