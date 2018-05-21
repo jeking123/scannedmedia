@@ -37,5 +37,5 @@ defaults:
   # baseurl: confguide
   # source: app
   permalink: pretty
-  sass:
+  sass: _scss
   style: compact # possible values: nested expanded compact compressed
