@@ -28,7 +28,7 @@ defaults:
     layout: page
 - scope:
     path: ''
-    type: portfolio
+    type: "portfolio"
   values:
     project_type:
     - ''
