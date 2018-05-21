@@ -36,3 +36,9 @@ defaults:
     date: ''
     header_image: ''
     caption: ''
+<<<<<<< Updated upstream
+=======
+ baseurl: confguide
+# source: app
+# permalink: pretty
+>>>>>>> Stashed changes
