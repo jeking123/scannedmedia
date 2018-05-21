@@ -1,8 +1,6 @@
 ---
 title: scannedmedia
 timezone: America/Los_Angeles
-baseurl: confguide
-source: app
 collections:
   portfolio:
     title: Portfolio
@@ -38,4 +36,6 @@ defaults:
     date: ''
     header_image: ''
     caption: ''
+baseurl: confguide
+source: app
 permalink: pretty
