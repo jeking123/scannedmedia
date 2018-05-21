@@ -28,14 +28,12 @@ defaults:
     layout: page
 - scope:
     path: ''
-    type: "portfolio"
+    type: 'portfolio'
   values:
-    project_type:
-    - ''
-    - ''
+    project_type: ''
     date: ''
     header_image: ''
     caption: ''
-  baseurl: confguide
-  source: app
+  # baseurl: confguide
+  # source: app
   permalink: pretty
