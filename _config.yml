@@ -36,6 +36,3 @@ defaults:
     date: ''
     header_image: ''
     caption: ''
-# baseurl: confguide
-# source: app
-# permalink: pretty
