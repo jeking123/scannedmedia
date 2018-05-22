@@ -1,7 +1,8 @@
+url: jeking123.github.io/scannedmedia
+baseurl: "/scannedmedia"
+
 title: scannedmedia
 timezone: America/Los_Angeles
-
-baseurl: "/scannedmedia"
 
 collections:
   portfolio:
