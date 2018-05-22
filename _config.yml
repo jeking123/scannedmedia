@@ -1,10 +1,6 @@
 ---
 title: scannedmedia
 timezone: America/Los_Angeles
-
-url: jeking123.github.io/scannedmedia
-baseurl: "/scannedmedia"
-
 collections:
   posts:
     title: Posts
@@ -39,3 +35,5 @@ defaults:
     date: ''
     header_image: ''
     caption: ''
+url: jeking123.github.io/scannedmedia
+baseurl: "/scannedmedia"
