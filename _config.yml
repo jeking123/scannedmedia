@@ -2,7 +2,7 @@
 title: scannedmedia
 timezone: America/Los_Angeles
 
-baseurl: smedia.thinkingdesign.studio
+baseurl: "/scannedmedia"
 
 collections:
   portfolio:
