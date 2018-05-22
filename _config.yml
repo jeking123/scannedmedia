@@ -8,9 +8,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-  portfolio:
-    title: Works
-    output: true
 defaults:
 - scope:
     path: ''
@@ -26,12 +23,3 @@ defaults:
     type: pages
   values:
     layout: page
-- scope:
-    path: ''
-    type: works
-  values:
-    layout: work
-    project_type: ''
-    date: ''
-    header_image: ''
-    caption: ''
