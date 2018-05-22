@@ -3,7 +3,7 @@ title: scannedmedia
 timezone: America/Los_Angeles
 collections:
   portfolio:
-    title: Portfolio
+    title: Works
     output: true
   posts:
     title: Posts
@@ -28,8 +28,9 @@ defaults:
     layout: page
 - scope:
     path: ''
-    type: portfolio
+    type: works
   values:
+    layout: work
     project_type: ''
     date: ''
     header_image: ''
