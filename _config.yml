@@ -1,9 +1,6 @@
 ---
 title: scannedmedia
 timezone: America/Los_Angeles
-
-baseurl: "/scannedmedia"
-
 collections:
   posts:
     title: Posts
@@ -38,3 +35,4 @@ defaults:
     date: ''
     header_image: ''
     caption: ''
+baseurl: "/scannedmedia"
