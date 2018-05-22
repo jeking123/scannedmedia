@@ -1,3 +1,4 @@
+---
 url: jeking123.github.io/scannedmedia
 baseurl: "/scannedmedia"
 
@@ -36,3 +37,5 @@ defaults:
     date: ''
     header_image: ''
     caption: ''
+url: jeking123.github.io/scannedmedia
+baseurl: "/scannedmedia"
