@@ -1,9 +1,12 @@
+<<<<<<< HEAD
 url: jeking123.github.io/scannedmedia
 baseurl: "/scannedmedia"
 
+=======
+---
+>>>>>>> origin/master
 title: scannedmedia
 timezone: America/Los_Angeles
-
 collections:
   portfolio:
     title: Portfolio
@@ -31,10 +34,11 @@ defaults:
     layout: page
 - scope:
     path: ''
-    type: 'portfolio'
+    type: portfolio
   values:
     project_type: ''
     date: ''
     header_image: ''
     caption: ''
-  permalink: pretty
+url: jeking123.github.io/scannedmedia
+baseurl: "/scannedmedia"
