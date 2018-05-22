@@ -1,6 +1,6 @@
 ---
 title: scannedmedia
-timezone: America/Los_Angeles
+timezone: UTC
 collections:
   posts:
     title: Posts
@@ -15,11 +15,9 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
-    thumb_image: ''
-    image: ''
-    caption: ''
 - scope:
     path: ''
     type: pages
   values:
     layout: page
+permalink: pretty
