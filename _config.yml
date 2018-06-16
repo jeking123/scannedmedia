@@ -2,6 +2,11 @@
 title: scannedmedia
 timezone: America/Los_Angeles
 collections:
+  work:
+    title: Our Work
+    output: true
+    image: "/uploads/photo-1432888498266-38ffec3eaf0a.png"
+    heading: A bit about us, and our clients.
   posts:
     title: Posts
     output: true
@@ -15,9 +20,6 @@ collections:
     output: true
   uploads:
     title: Uploads
-    output: true
-  work:
-    title: Work
     output: true
 defaults:
 - scope:
