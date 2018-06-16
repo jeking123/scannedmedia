@@ -9,6 +9,7 @@ collections:
   services:
     title: Services
     output: true
+    heading: Our Services
   testimonials:
     title: Testimonials
     output: true
