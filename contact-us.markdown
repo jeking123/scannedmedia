@@ -18,5 +18,3 @@ form:
   - Message
 - - Submit
 ---
-
-Ready to get started?
