@@ -1,4 +1,51 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include '_includes/head.html' %}
+  </head>
+  <body>
 
+    <!--  Mobile Navigation  -->
+    {% include '_includes/mobilenav.html' %}
+
+    <!--  Navigation  -->
+    {% include '_includes/header.html' %}
+
+    <section class="hero is-fullwidth blog-images blog-head-img" style="background-image:url('{{posts[0].imgurl}}'); height:500px;">
+      <div class="featured-content"><div class="content grid has-text-white"><h1 class="is-size-1 is-bold has-text-white">{{posts[0].title}}</h1></div></div>
+    </section>
+
+    <section class="section grid is-paddingless-horizontal">
+      <div class="">
+        <div class="content">
+          <h3 class="is-size-6 is-uppercase">{{posts[0].catagory}}</h3>
+          <p class="is-size-7 is-capitalized">Written by {{posts[0].author}} on <time datetime="{{posts[0].date}}" >{{posts[0].date}}</time></p>
+        </div>
+      </div>
+      <article class="section content is-paddingless-horizontal">
+        <blockquote>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat deserunt, ex ipsum quaerat aliquid iure similique recusandae earum non quasi velit doloribus. Asperiores similique ducimus consequuntur optio ab, expedita vero.  
+        </blockquote>
+
+        {% block content %}
+
+        {% endblock %}
+        
+        
+      </article>
+      <nav class="breadcrumb" aria-label="breadcrumbs">
+        <ul>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">{{posts[0].catagory}}</a></li>
+          <li class="is-active"><a href="#" aria-current="page">{{posts[0].title}}</a></li>
+        </ul>
+      </nav>
+    </section>
+    
+    <!--   Footer   -->
+    {% include '_includes/basic-footer.html' %}
+
+    <!-- Scripts -->
+    {% include '_includes/scripts.html' %}
+  </body>
+</html>
