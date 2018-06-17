@@ -8,13 +8,13 @@ $darkGrey: #414042;
 $mediumGrey: #757576;
 $lightGrey: #A3A3A3;
 
-@import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css';
-@import 'bulma-carousel';
-@import 'helpers';
-@import 'rotating';
-@import 'color-overrides';
-@import 'bulma-quickview';
-@import 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css';
+//@import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css';
+//@import 'bulma-carousel';
+//@import 'helpers';
+//@import 'rotating';
+//@import 'color-overrides';
+//@import 'bulma-quickview';
+//@import 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css';
 
 #bganimation {
   position:absolute;
@@ -158,7 +158,7 @@ body {
   display:block;
   }
   .cover {
-	background: black url(/img/Optimized-Working-2.png) center / cover;
+	background: black url('/img/Optimized-Working-2.png') center / cover;
   }
   .fullwidth{
     width:100%;
@@ -186,7 +186,7 @@ body {
     padding-top:0px;
   }
   .cover {
-	  background: black url(/img/Optimized-Working-3.png) center / cover;
+	  background: black url('/img/Optimized-Working-3.png') center / cover;
   }
   .carousel {
   padding:15px;
