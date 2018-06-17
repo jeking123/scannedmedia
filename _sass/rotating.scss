@@ -1,11 +1,7 @@
 $menu-items: 3;
 $rotation: 360deg / $menu-items;
 
-@import url(https://fonts.googleapis.com/css?family=Lato);
-
-* {
-  box-sizing: border-box;
-}
+//@import url(https://fonts.googleapis.com/css?family=Lato);
 
 .wrapper {
   position: relative;
