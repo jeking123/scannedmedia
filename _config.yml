@@ -37,3 +37,4 @@ permalink: pretty
 baseurl: www.scannedmedia.siteleaf.net
 sass:
   sass_dir: _sass
+logo: "/uploads/SM-logo-horizontal-color.svg"
