@@ -1,5 +1,6 @@
 ---
-title: Blog
+title: Blogs
+date: 2018-06-17 12:38:00 -07:00
 position: 0
 business: Scanned Media
 heading: has the creative
