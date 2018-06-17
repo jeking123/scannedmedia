@@ -34,7 +34,7 @@ defaults:
   values:
     layout: page
 permalink: pretty
-baseurl: 
+baseurl: https://www.scannedmedia.siteleaf.net
 sass:
   sass_dir: _sass
 logo: "/uploads/SM-logo-horizontal-color.svg"
