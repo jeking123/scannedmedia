@@ -12,3 +12,4 @@ paragraph: Here at Scanned Media, our goal is to provide the tools and strategy 
   your businesses communication needs, either digitally or through traditional print
   services.
 ---
+
