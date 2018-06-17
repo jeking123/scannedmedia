@@ -11,6 +11,6 @@ paragraph: Here at Scanned Media, our goal is to provide the tools and strategy 
   we've been building our set of skills. Growing to a small team capable of fulfilling
   your businesses communication needs, either digitally or through traditional print
   services.
-layout: default
+layout: blog
 ---
 
