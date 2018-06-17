@@ -34,5 +34,6 @@ defaults:
   values:
     layout: page
 permalink: pretty
+baseurl: "www.scannedmedia.siteleaf.com"
 sass:
   sass_dir: _sass
