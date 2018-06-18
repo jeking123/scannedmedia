@@ -1,7 +1,7 @@
 ---
 title: Blogs
 date: 2018-06-17 12:38:00 -07:00
-position: 0
+position: 2
 business: Scanned Media
 heading: has the creative
 section: We're Scanned Media

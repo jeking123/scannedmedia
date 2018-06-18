@@ -1,21 +1,7 @@
 ---
 title: Contact Us
-date: 2018-05-18 18:56:00 -07:00
-position: 4
+date: 2018-06-16 18:55:00 -07:00
+position: 3
 layout: contact
-form:
-- - name
-  - Full Name
-- - number
-  - Phone Number
-- - email
-  - Email
-- - company
-  - Company / Organization
-- - website
-  - Website / Optional
-- - message
-  - Message
-- - Submit
 ---
 
