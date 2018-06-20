@@ -33,19 +33,15 @@ defaults:
     type: pages
   values:
     layout: page
-
 permalink: pretty
 url: https://www.scannedmedia.siteleaf.net
-
 menu:
-  - title: "Work"
-    url: "/work"
-  - title: "Blog"
-    url: "/blog"
-  - title: "Hire Us"
-    url: "/contact-us"
-
+- title: Work
+  url: "/work"
+- title: Blog
+  url: "/blog"
+- title: Hire Us
+  url: "/contact-us"
 sass:
   sass_dir: _sass
-
 logo: "/uploads/SM-logo-horizontal-color.svg"
