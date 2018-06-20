@@ -36,13 +36,12 @@ defaults:
 permalink: pretty
 url: https://www.scannedmedia.siteleaf.net
 menu:
-  - title: work
-    url: "/work/"
-  - title: blog
-    url: "/blog/"
-  - title: hire us
-    url: "/contact-us/"
-    
+- title: work
+  url: "/work/"
+- title: blog
+  url: "/blog/"
+- title: hire us
+  url: "/contact-us/"
 sass:
   sass_dir: _sass
 logo: "/uploads/SM-logo-horizontal-color.svg"
