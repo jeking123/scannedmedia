@@ -28,7 +28,7 @@
 <section class="hero has-background-magenta" id="posts">
   <div class="container is-widescreen center is-fullwidth" style="width:100%;">
     <div class="columns is-multiline posts">
-     {% for post in posts %}
+     {% for post in site.posts %}
 <!--    use a conditional to iterate through an int -->  
       <article class="column">
         <div class="blog-images" class="is-fullwidth" style="background-image: url({{ post.imgurl }}); width:100%; height:500px;">
