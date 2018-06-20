@@ -36,14 +36,6 @@ defaults:
 permalink: pretty
 url: scannedmedia.siteleaf.net
 menu:
-<<<<<<< Updated upstream
-- title: work
-  url: "/work/"
-- title: blog
-  url: "/blog/"
-- title: hire us
-  url: "/contact-us/"
-=======
   - title: work
     url: "/work/"
   - title: blog
@@ -51,7 +43,6 @@ menu:
   - title: hire us
     url: "/contact-us/"
 
->>>>>>> Stashed changes
 sass:
   sass_dir: _sass
 logo: "/uploads/SM-logo-horizontal-color.svg"
