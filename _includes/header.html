@@ -6,11 +6,11 @@
   </div>
   <div class="column center desktop">
   <p class="navbar-item has-text-black"><a href="/">ABOUT</a></p>
-    <p class="navbar-item has-text-black"><a href="{{site.url}}{{site.work.permalink}}">OUR WORK</a></p>
-    <p class="navbar-item has-text-black"><a href="{{ "/blog.html" | absolute_url }}">BLOG</a></p>
+    <p class="navbar-item has-text-black"><a href="{{ site.menu[0].title | relative_url }}">{{site.menu[0].title}}</a></p>
+    <p class="navbar-item has-text-black"><a href="{{ site.menu[1].title | relative_url }}">{{site.menu[1].title}}</a></p>
   </div>
   <div class="column right">
-    <p class="navbar-item has-text-black desktop"><a href="{{ "/contact-us.html" | absolute_url }}">HIRE US</a></p>
+    <p class="navbar-item has-text-black desktop"><a href="{{ site.menu[2].url | relative_url }}">{{site.menu[2].title}}</a></p>
     <p class="navbar-item has-text-black desktop">LOGIN</p>
     <figure class="navbar-item image has-text-black center" data-show="quickview" data-target="quickviewDefault">
       <i class="fas fa-bars" style="width: 1rem; height: 1rem;"></i>
