@@ -36,22 +36,13 @@ defaults:
 permalink: pretty
 url: https://www.scannedmedia.siteleaf.net
 menu:
-<<<<<<< HEAD
-  - title: "Work"
+  - title: Work
     url: "/work/index.html"
-  - title: "Blog"
+  - title: Blog
     url: "/blog/index.html"
-  - title: "Hire Us"
+  - title: Hire Us
     url: "/contact-us/index.html"
 
-=======
-- title: Work
-  url: "/work"
-- title: Blog
-  url: "/blog"
-- title: Hire Us
-  url: "/contact-us"
->>>>>>> origin/master
 sass:
   sass_dir: _sass
 logo: "/uploads/SM-logo-horizontal-color.svg"
