@@ -39,11 +39,11 @@ url: https://www.scannedmedia.siteleaf.net
 
 menu:
   - title: "Work"
-    url: "/work"
+    url: "/work/index.html"
   - title: "Blog"
-    url: "/blog"
+    url: "/blog/index.html"
   - title: "Hire Us"
-    url: "/contact-us"
+    url: "/contact-us/index.html"
 
 sass:
   sass_dir: _sass
