@@ -28,12 +28,11 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
-    layout: works
     subtitle: branding + identity
     head-image: 
     description-image: 
     section:
-   - catagory: '01'
+    - catagory: '01'
      title: logo
      subtitle: be the impact
      full-image: 
