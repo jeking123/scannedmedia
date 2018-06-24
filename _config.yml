@@ -28,7 +28,7 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
-    author: "John Doe"
+    author: John Doe
 - scope:
     path: ''
     type: pages
@@ -46,7 +46,7 @@ defaults:
       full-image: 
       first-sub-image: 
       second-sub-image: 
-      second-full-image:     
+      second-full-image: 
 permalink: pretty
 url: https://www.scannedmedia.siteleaf.net
 menu:
