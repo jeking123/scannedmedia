@@ -28,11 +28,25 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
+    author: "John Doe"
 - scope:
     path: ''
     type: pages
   values:
     layout: page
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: works
+    section:
+    - catagory: '01'
+      title: logo
+      subtitle: be the impact
+      full-image: 
+      first-sub-image: 
+      second-sub-image: 
+      second-full-image:     
 permalink: pretty
 url: https://www.scannedmedia.siteleaf.net
 menu:
