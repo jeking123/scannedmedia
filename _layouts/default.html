@@ -25,7 +25,7 @@
     </header>  <!-- /Hero Body   -->
     </section>
     
-    <section class="section is-large has-background-magenta" id="about">
+    <section class="section is-medium has-background-teal" id="about">
       <div class="columns">
         <div class="column is-4 is-offset-4">
           <div class="content box">
@@ -91,7 +91,29 @@
         <div class="column desktop"></div>
     </section>
         
-    <section class="section testimonials has-background-lightTeal">
+    <section class="hero has-background-magenta" id="posts">
+      <div class="container is-widescreen center is-fullwidth" >
+        <div class="columns is-multiline posts">
+          <div class="column">
+            <h2 class="title is-size-2 has-text-centered is-uppercase">Have you read our latest blog posts?</h2>   
+          </div>
+         {% for post in site.posts %}
+          <article class="column">
+            <div class="blog-images" class="is-fullwidth" style="background-image: url({{ post.image }}); width:100%; height:500px;">
+              <div class="featured-content" style="width:100%; height:100%;">
+                <div class="content blog-posts">
+                  <h4 class="">{{ post.catagory }}<span> | {{ post.date }}</span></h4>
+                  <a href="{{post.url}}"><h2 class="">{{ post.title }}</h2></a>
+                </div>
+              </div>
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials has-background-grey">
       <div class="columns is-mobile">
         <div class="column is-1 is-offset-2-desktop desktop carousel-nav- is-size-2 has-text-white is-narrow-mobile">
           <div class="carousel-navigation">
@@ -103,22 +125,22 @@
           <div class="carousel-container fullwidth">
             <div class="carousel-content carousel-animate carousel-num-1 fullwidth">
               <div class="carousel-item">
-                <div class="content has-text-white box has-background-teal">
-                  <h4 class="title is-marginless is-size-4 is-capitalized">a company 1</h4>
+                <div class="content has-text-white box has-background-grey-darker">
+                  <h4 class="title has-text-white is-marginless is-size-4 is-capitalized">a company 1</h4>
                   <p class="is-size-6 carousel-cont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et diam sed dolor ultricies tempus non vitae velit. Maecenas aliquam volutpat tortor et gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et diam sed dolor ultricies tempus non vitae velit. Maecenas aliquam volutpat tortor et gravida.</p>
                   <p class="has-text-centered is-size-7">John Doe | Owner</p>
                 </div> <!-- End Content -->
               </div> <!-- End Carousel-Item -->
               <div class="carousel-item">
-                <div class="content has-text-white box has-background-teal">
-                  <h4 class="title is-marginless is-size-4 is-capitalized">a company 2</h4>
+                <div class="content has-text-white box has-background-grey-darker">
+                  <h4 class="title has-text-white is-marginless is-size-4 is-capitalized">a company 2</h4>
                   <p class="is-size-6 carousel-cont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et diam sed dolor ultricies tempus non vitae velit. Maecenas aliquam volutpat tortor et gravida.</p>
                   <p class="has-text-centered is-size-7">John Doe | Owner</p>
                 </div> <!-- End Content -->
               </div> <!-- End Carousel-Item -->
               <div class="carousel-item">
-                <div class="content has-text-white box has-background-teal">
-                  <h4 class="title is-marginless is-size-4 is-capitalized">a company 3</h4>
+                <div class="content has-text-white box has-background-grey-darker">
+                  <h4 class="title has-text-white is-marginless is-size-4 is-capitalized">a company 3</h4>
                   <p class="is-size-6 carousel-cont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et diam sed dolor ultricies tempus non vitae velit. Maecenas aliquam volutpat tortor et gravida.</p>
                   <p class="has-text-centered is-size-7">John Doe | Owner</p>
                 </div> <!-- End Content -->
@@ -146,28 +168,6 @@
           </div> 
         </div>
         <div class="column mobile"></div>
-      </div>
-    </section>
-        
-    <section class="hero has-background-magenta" id="posts">
-      <div class="container is-widescreen center is-fullwidth" >
-        <div class="columns is-multiline posts">
-          <div class="column">
-            <h2 class="title is-size-2 has-text-centered is-uppercase">Have you read our latest blog posts?</h2>   
-          </div>
-         {% for post in site.posts %}
-          <article class="column">
-            <div class="blog-images" class="is-fullwidth" style="background-image: url({{ post.image }}); width:100%; height:500px;">
-              <div class="featured-content" style="width:100%; height:100%;">
-                <div class="content blog-posts">
-                  <h4 class="">{{ post.catagory }}<span> | {{ post.date }}</span></h4>
-                  <a href="{{post.link}}"><h2 class="">{{ post.title }}</h2></a>
-                </div>
-              </div>
-            </div>
-          </article>
-          {% endfor %
-        </div>
       </div>
     </section>
 
