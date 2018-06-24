@@ -28,29 +28,6 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
-    subtitle: branding + identity
-    head-image: 
-    description-image: 
-    section:
-    - catagory: '01'
-     title: logo
-     subtitle: be the impact
-     full-image: 
-     first-sub-image: 
-     second-sub-image: 
-     second-full-image: 
-   - catagory: '02'
-     title: fonts
-     subtitle: logo and collateral
-     full-image: 
-     first-sub-image: 
-     second-sub-image: 
-   - catagory: '02'
-     title: fonts
-     subtitle: logo and collateral
-     full-image: 
-     first-sub-image: 
-     second-sub-image: 
 - scope:
     path: ''
     type: pages
