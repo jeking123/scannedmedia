@@ -1,7 +1,6 @@
 ---
 title: scannedmedia
 timezone: America/Los_Angeles
-
 collections:
   work:
     title: Our Work
@@ -68,17 +67,15 @@ defaults:
   values:
     title: Apps
     button: learn more
-    image:
+    image: 
 - scope:
     path: ''
     type: testimonials
   values:
     author: John Doe
     position: Owner
-
 permalink: pretty
 url: https://www.scannedmedia.siteleaf.net
-
 menu:
 - title: work
   url: "/work/"
@@ -86,8 +83,6 @@ menu:
   url: "/blog/"
 - title: hire us
   url: "/contact-us/"
-
 sass:
   sass_dir: _sass
-
 logo: "/uploads/SM-logo-horizontal-color.svg"
