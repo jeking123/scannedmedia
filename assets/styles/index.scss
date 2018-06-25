@@ -64,16 +64,19 @@ body {
   height: 100%;
 }
 #work a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   width: 100%;
-  background: rgba(100,100,100,0);
+  background-color: rgba(100,100,100,0);
   color: rgba(255,255,255,0);
-  transition: background-color 1s;
-  transition: color 1s;
+  transition: background-color 1s ease;
+  transition: color 1s ease;
   padding:25px;
 }
 #work a:hover {
-  background: rgba(100,100,100,.7);
+  background-color: rgba(100,100,100,.7);
   color: rgba(255,255,255,1);
 }
 
@@ -206,7 +209,7 @@ body {
   background-size: auto 100%;
   }
   #work a {
-    background: rgba(100,100,100,.7);
+    background-color: rgba(100,100,100,.7);
     color: rgba(255,255,255,1);
   }
 }
