@@ -26,10 +26,10 @@
 </section>
 
 <section class="hero section has-background-magenta" id="work">
-  <div class="container is-widescreen">
+  <div class="">
       <div class="columns is-multiline work-parent">
         {% for set in site.work %}
-          <div class="column is-6 work-child">
+          <div class="column work-child">
             <article class="work-item has-text-centered" style="background:url({{set.head-image}}) center / cover;">
               <a href="{{set.url}}"><div>
                 <p class="has-text-weight-bold is-size-3">{{set.title}}</p>
