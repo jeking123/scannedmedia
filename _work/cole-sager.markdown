@@ -2,7 +2,7 @@
 title: Cole Sager
 date: 2018-06-16 15:35:00 -07:00
 subtitle: branding + identity
-head-image: 
+head-image: "/uploads/cole-sagerArtboard-4-bg-image-.jpg"
 section:
 - catagory: '01'
   title: logo
