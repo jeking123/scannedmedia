@@ -61,14 +61,22 @@ body {
 }
 
 #work .work-item {
-  position: relative;
   height: 100%;
 }
 #work a {
-  position: absolute;
-  bottom: 0px;
+  height: 100%;
+  width: 100%;
+  background: rgba(100,100,100,0);
+  color: rgba(255,255,255,0);
+  transition: background-color 1s;
+  transition: color 1s;
   padding:25px;
 }
+#work a:hover {
+  background: rgba(100,100,100,.7);
+  color: rgba(255,255,255,1);
+}
+
 
 #posts {
   padding-top:45px;
@@ -196,5 +204,9 @@ body {
   }
   .blog-head-img {
   background-size: auto 100%;
+  }
+  #work a {
+    background: rgba(100,100,100,.7);
+    color: rgba(255,255,255,1);
   }
 }
