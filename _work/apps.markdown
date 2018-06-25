@@ -1,6 +1,7 @@
 ---
 title: Apps
 date: 2018-06-24 18:08:00 -07:00
+head-image: "/uploads/mobile-apps-banner-2.png"
 section:
 - catagory: '01'
   title: logo
