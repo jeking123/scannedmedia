@@ -73,7 +73,6 @@ defaults:
     type: testimonials
   values:
     author: John Doe
-    position: Owner
 permalink: pretty
 url: https://www.scannedmedia.siteleaf.net
 menu:

@@ -127,27 +127,14 @@
           <div class="carousel fullwidth">
           <div class="carousel-container fullwidth">
             <div class="carousel-content carousel-animate carousel-num-1 fullwidth">
+              {% for review in site.testimonials %}
               <div class="carousel-item">
                 <div class="content has-text-white box has-background-grey-darker">
-                  <h4 class="title has-text-white is-marginless is-size-4 is-capitalized">a company 1</h4>
-                  <p class="is-size-6 carousel-cont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et diam sed dolor ultricies tempus non vitae velit. Maecenas aliquam volutpat tortor et gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et diam sed dolor ultricies tempus non vitae velit. Maecenas aliquam volutpat tortor et gravida.</p>
-                  <p class="has-text-centered is-size-7">John Doe | Owner</p>
+                  <p class="is-size-6 carousel-cont">{{review.content}}</p>
+                  <p class="has-text-centered is-size-7">{{review.author}} | {{review.title}}</p>
                 </div> <!-- End Content -->
               </div> <!-- End Carousel-Item -->
-              <div class="carousel-item">
-                <div class="content has-text-white box has-background-grey-darker">
-                  <h4 class="title has-text-white is-marginless is-size-4 is-capitalized">a company 2</h4>
-                  <p class="is-size-6 carousel-cont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et diam sed dolor ultricies tempus non vitae velit. Maecenas aliquam volutpat tortor et gravida.</p>
-                  <p class="has-text-centered is-size-7">John Doe | Owner</p>
-                </div> <!-- End Content -->
-              </div> <!-- End Carousel-Item -->
-              <div class="carousel-item">
-                <div class="content has-text-white box has-background-grey-darker">
-                  <h4 class="title has-text-white is-marginless is-size-4 is-capitalized">a company 3</h4>
-                  <p class="is-size-6 carousel-cont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et diam sed dolor ultricies tempus non vitae velit. Maecenas aliquam volutpat tortor et gravida.</p>
-                  <p class="has-text-centered is-size-7">John Doe | Owner</p>
-                </div> <!-- End Content -->
-              </div> <!-- End Carousel-Item -->
+              {% endfor %}
             </div><!-- End Carousel-Content -->    
           </div><!-- End Carousel container -->
           </div><!-- End Carousel -->
