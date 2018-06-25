@@ -2,7 +2,7 @@
 
 // Current item visible is always order 2
 // Animate is order 1 -> 2
-// Animaate reverse is order 2 <- 3
+// Animate reverse is order 2 <- 3
 window.onload = function(){ 
     var carouselContent = document.querySelector('.carousel-content');
     var items = document.querySelectorAll('.carousel-item');
