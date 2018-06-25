@@ -57,10 +57,16 @@ body {
 }
 
 #work .work-child {
-  min-height: 650px;
+  min-height: 400px;
 }
 
 #work .work-item {
+  position: relative;
+  height: 100%;
+}
+#work a {
+  position: absolute;
+  bottom: 0px;
   padding:25px;
 }
 
