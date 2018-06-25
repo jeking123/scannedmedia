@@ -79,6 +79,14 @@ body {
   background-color: rgba(100,100,100,.7);
   color: rgba(255,255,255,1);
 }
+#work .columns{
+  flex:none;
+  width:33%;
+}
+#work .columns:nth-child(1),#work .columns:nth-child(2){
+  flex:none;
+  width:50%;
+}
 
 
 #posts {
