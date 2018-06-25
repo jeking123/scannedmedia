@@ -6,7 +6,6 @@ section:
 - catagory: '01'
   title: logo
   subtitle: be the impact
-  full-image: "/uploads/mobile-apps-banner-2.png"
 - catagory: '02'
   title: fonts
   subtitle: font titles
