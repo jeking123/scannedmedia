@@ -1,5 +1,5 @@
 ---
-title: liberty lake juice company
+title: Liberty Lake Juice Company
 date: 2018-06-24 16:57:00 -07:00
 author: Lindsey Adrienne
 position: Liberty Lake Juice Company
