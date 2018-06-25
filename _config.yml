@@ -39,6 +39,8 @@ defaults:
     type: work
   values:
     layout: works
+    subtitle: branding + identity
+    head-image: 
     section:
     - catagory: '01'
       title: logo
