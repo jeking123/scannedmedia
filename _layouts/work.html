@@ -26,65 +26,17 @@
 </section>
 
 <section class="hero section has-background-magenta" id="work">
-  <div class="">
-      <div class="columns is-multiline work-parent">
-        {% for set in site.work %}
-          <div class="column work-child">
-            <article class="work-item has-text-centered" style="background:url({{set.head-image}}) center / cover;">
-              <a href="{{set.url}}"><div>
-                <p class="has-text-weight-bold is-size-3">{{set.title}}</p>
-                <p class="">{{set.subtitle}}</p> 
-              </div></a>
-            </article>
-          </div>
-        {% endfor %}
-      </div>
-  <!--
-  <div class="tile is-ancestor">
-      <div class="tile is-parent">
-        <article class="tile is-child" style="background:url({{site.work[0].head-image}}) center / cover;">
-          <a href="{{site.work[0].url}}"><div>
-            <p class="has-text-weight-bold is-size-3">{{site.work[0].title}}</p>
-            <p class="subtitle">How do you interact with your customers?</p> 
+  <div class="columns is-multiline work-parent">
+    {% for set in site.work %}
+      <div class="column work-child">
+        <article class="work-item has-text-centered" style="background:url({{set.head-image}}) center / cover;">
+          <a href="{{set.url}}"><div>
+            <p class="has-text-weight-bold is-size-3">{{set.title}}</p>
+            <p class="">{{set.subtitle}}</p> 
           </div></a>
         </article>
       </div>
-      <div class="tile is-parent">
-        <article class="tile is-child" style="background: url({{site.work[0].head-image}}) center / cover;">
-          <a href="{{site.work[1].url}}"><div>
-            <p class="has-text-weight-bold is-size-3">{{site.work[0].title}}r</p>
-            <p class="subtitle">Be The Impact</p>
-          </div></a>
-        </article>
-      </div>
-    </div>
-    <div class="tile is-ancestor">
-      <div class="tile is-parent">
-        <article class="tile is-child" style="background:url(img/work/coffeelab-banner-min.png) center / cover;">
-          <a href="single-work.html"><div style="">
-            <p class="has-text-weight-bold is-size-3">Coffee Lab</p>
-            <p class="subtitle">Naturally Selected</p> 
-          </div></a>
-        </article>
-      </div>
-        <div class="tile is-parent">
-        <article class="tile is-child" style="background:url(img/work/websites.jpg) center / cover;">
-          <a href="single-work.html"><div style="">
-            <p class="has-text-weight-bold is-size-3">Web Services</p>
-            <p class="subtitle">Is your website responsive?</p> 
-          </div></a>
-        </article>
-      </div>
-      <div class="tile is-parent">
-        <article class="tile is-child" style="background: url(img/work/union-hall-banner-min.png) center / cover;">
-          <a href="single-work.html"><div>
-            <p class="has-text-weight-bold is-size-3">Union Hall</p>
-            <p class="subtitle">Breaking Bread Together</p>
-          </div></a>
-        </article>
-      </div>
-    </div>
-    -->
+    {% endfor %}
   </div>
 </section>
 
