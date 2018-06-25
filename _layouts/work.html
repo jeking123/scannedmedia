@@ -27,7 +27,19 @@
 
 <section class="hero section has-background-magenta" id="work">
   <div class="container">
-    
+      <div class="columns  is-mobile is-multiline work-parent">
+        {% for set in site.work %}
+          <div class="column is-6 work-child">
+            <article class="work-item" style="background:url({{site.work[0].head-image}}) center / cover;">
+              <a href="{{site.work[0].url}}"><div>
+                <p class="has-text-weight-bold is-size-3">{{site.work[0].title}}</p>
+                <p class="subtitle">How do you interact with your customers?</p> 
+              </div></a>
+            </article>
+          </div>
+        {% endfor %}
+      </div>
+  <!--
   <div class="tile is-ancestor">
       <div class="tile is-parent">
         <article class="tile is-child" style="background:url({{site.work[0].head-image}}) center / cover;">
@@ -72,7 +84,7 @@
         </article>
       </div>
     </div>
-
+    -->
   </div>
 </section>
 
