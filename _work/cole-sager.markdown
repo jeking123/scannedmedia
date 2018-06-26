@@ -3,8 +3,8 @@ title: Cole Sager
 date: 2018-06-16 15:35:00 -07:00
 categories:
 - branding
-- website
 - app
+- website
 subtitle: branding + identity
 head-image: "/uploads/cole-sagerArtboard-4-bg-image-.jpg"
 section:
