@@ -17,6 +17,16 @@ section:
 - catagory: '02'
   title: fonts
   subtitle: logo and collateral
+columns:
+- head-image:
+  - column-size: is-12
+  - "/uploads/cole-sagerArtboard-4-bg-image-.jpg"
+- body-content:
+  - is-12
+  - image: "/uploads/cole-sagerArtboard-5-bg-image-.jpg"
+- logo-:
+  - column-size: 
+  - 
 layout: works
 ---
 
