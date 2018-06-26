@@ -1,13 +1,6 @@
 ---
 ---
 
-$lightTeal: #47BEAA;
-$darkTeal: #26A089;
-$magenta: #EC008C;
-$darkGrey: #414042;
-$mediumGrey: #757576;
-$lightGrey: #A3A3A3;
-
 //@import 'bulma-carousel.css';
 //@import 'bulma-carousel';
 @import 'helpers';
@@ -57,7 +50,7 @@ body {
 }
 
 #work .work-child {
-  min-height: 400px;
+  height: 400px;
 }
 
 #work .work-item {
@@ -215,5 +208,13 @@ body {
   #work a {
     background-color: rgba(100,100,100,.7);
     color: rgba(255,255,255,1);
+  }
+  #work .column{
+    flex:none;
+    width:100%;
+  }
+  #work .column:nth-child(1),#work .column:nth-child(2){
+    flex:none;
+    width:100%;
   }
 }
