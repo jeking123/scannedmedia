@@ -15,44 +15,43 @@ columns:
   - image: "/uploads/cole-sagerArtboard-5-bg-image-.jpg"
 - logo-:
   - column-size: is-6
-  - title: 01
+  - title: 1
   - subtitle: logo
   - para: Be The Impact
-- logo-image1: 
+- logo-image1:
   - column-size: is-6
   - image: 
-- logo-image2: 
+- logo-image2:
   - column-size: is-6
-  - image:
-- logo-image3: 
+  - image: 
+- logo-image3:
   - column-size: is-12
-  - image:
-- font-grid: 
+  - image: 
+- font-grid:
   - column-size: is-6
-  - image:
+  - image: 
 - font:
   - column-size: is-6
-  - title: 02
+  - title: 2
   - subtitle: font
   - para: supporting type
-- font-image1: 
+- font-image1:
   - column-size: is-6
   - image: 
-- font-image2: 
+- font-image2:
   - column-size: is-6
-  - image:
+  - image: 
 - collateral:
   - column-size: is-12
-  - title: 03
+  - title: 3
   - subtitle: collateral
   - para: Additional Material
-- font-image1: 
+- font-image1:
   - column-size: is-6
   - image: 
-- font-image2: 
+- font-image2:
   - column-size: is-6
-  - image:
-
+  - image: 
 layout: works
 ---
 
