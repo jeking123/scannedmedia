@@ -6,27 +6,53 @@ categories:
 - app
 - website
 subtitle: branding + identity
-head-image: "/uploads/cole-sagerArtboard-4-bg-image-.jpg"
-section:
-- catagory: '01'
-  title: logo
-  subtitle: be the impact
-- catagory: '02'
-  title: fonts
-  subtitle: logo and collateral
-- catagory: '02'
-  title: fonts
-  subtitle: logo and collateral
 columns:
 - head-image:
   - column-size: is-12
-  - "/uploads/cole-sagerArtboard-4-bg-image-.jpg"
+  - image: "/uploads/cole-sagerArtboard-4-bg-image-.jpg"
 - body-content:
-  - is-12
+  - column-size: is-12
   - image: "/uploads/cole-sagerArtboard-5-bg-image-.jpg"
 - logo-:
-  - column-size: 
-  - 
+  - column-size: is-6
+  - title: 01
+  - subtitle: logo
+  - para: Be The Impact
+- logo-image1: 
+  - column-size: is-6
+  - image: 
+- logo-image2: 
+  - column-size: is-6
+  - image:
+- logo-image3: 
+  - column-size: is-12
+  - image:
+- font-grid: 
+  - column-size: is-6
+  - image:
+- font:
+  - column-size: is-6
+  - title: 02
+  - subtitle: font
+  - para: supporting type
+- font-image1: 
+  - column-size: is-6
+  - image: 
+- font-image2: 
+  - column-size: is-6
+  - image:
+- collateral:
+  - column-size: is-12
+  - title: 03
+  - subtitle: collateral
+  - para: Additional Material
+- font-image1: 
+  - column-size: is-6
+  - image: 
+- font-image2: 
+  - column-size: is-6
+  - image:
+
 layout: works
 ---
 
