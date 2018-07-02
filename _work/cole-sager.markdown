@@ -7,54 +7,51 @@ categories:
 - website
 subtitle: branding + identity
 columns:
-- head-image:
-  - column-size: is-12
-  - image: "/uploads/cole-sagerArtboard-4-bg-image-.jpg"
-- body-content:
-  - column-size: is-12
-  - image: "/uploads/cole-sagerArtboard-5-bg-image-.jpg"
-- logo-:
-  - column-size: is-6
-  - title: '01'
-  - subtitle: logo
-  - para: Be The Impact
-- logo-image1:
-  - column-size: is-6
-  - image: "/uploads/cole-sagerArtboard-11-bg-image-.jpg"
-- logo-image2:
-  - column-size: is-6
-  - image: "/uploads/cole-sagerArtboard-7-bg-image-.jpg"
-- logo-image3:
-  - column-size: is-12
-  - image: "/uploads/cole-sagerArtboard-9-bg-image-.jpg"
-- font-grid:
-  - column-size: is-6
-  - image: "/uploads/cole-sagerArtboard-12-bg-image-.jpg"
-- font:
-  - column-size: is-6
-  - title: '02'
-  - subtitle: font
-  - para: supporting type
-- font-image1:
-  - column-size: is-6
-  - image: "/uploads/cole-sagerArtboard-13-bg-image-.jpg"
-- font-image2:
-  - column-size: is-6
-  - image: "/uploads/cole-sagerArtboard-14-bg-image-.jpg"
-- collateral:
-  - column-size: is-12
-  - title: '03'
-  - subtitle: collateral
-  - para: Additional Material
-- font-image1:
-  - column-size: is-6
-  - image: "/uploads/cole-sagerArtboard-15-bg-image-.jpg"
-- font-image2:
-  - column-size: is-6
-  - image: "/uploads/cole-sagerArtboard-16-bg-image-.jpg"
-columnss:
-  Key 1:
-    Key 1: 
+  head-image:
+    column-size: is-12
+    image: "/uploads/cole-sagerArtboard-4-bg-image-.jpg"
+  body-content:
+    column-size: is-12
+    image: "/uploads/cole-sagerArtboard-5-bg-image-.jpg"
+  logo-:
+    column-size: is-6
+    title: '01'
+    subtitle: logo
+    para: Be The Impact
+  logo-image1:
+    column-size: is-6
+    image: "/uploads/cole-sagerArtboard-11-bg-image-.jpg"
+  logo-image2:
+    column-size: is-6
+    image: "/uploads/cole-sagerArtboard-7-bg-image-.jpg"
+  logo-image3:
+    column-size: is-12
+    image: "/uploads/cole-sagerArtboard-9-bg-image-.jpg"
+  font-grid:
+    column-size: is-6
+    image: "/uploads/cole-sagerArtboard-12-bg-image-.jpg"
+  font:
+    column-size: is-6
+    title: '02'
+    subtitle: font
+    para: supporting type
+  font-image1:
+    column-size: is-6
+    image: "/uploads/cole-sagerArtboard-13-bg-image-.jpg"
+  font-image2:
+    column-size: is-6
+    image: "/uploads/cole-sagerArtboard-14-bg-image-.jpg"
+  collateral:
+    column-size: is-12
+    title: '03'
+    subtitle: collateral
+    para: Additional Material
+  font-image1:
+    column-size: is-6
+    image: "/uploads/cole-sagerArtboard-15-bg-image-.jpg"
+  font-image2:
+    column-size: is-6
+    image: "/uploads/cole-sagerArtboard-16-bg-image-.jpg"
 layout: works
 ---
 
