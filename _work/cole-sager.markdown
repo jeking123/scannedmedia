@@ -9,8 +9,10 @@ subtitle: branding + identity
 columns:
 - column-size: is-12
   image: "/uploads/cole-sagerArtboard-4-bg-image-.jpg"
+  is-head: true
 - column-size: is-12
   image: "/uploads/cole-sagerArtboard-5-bg-image-.jpg"
+  is-body: true
 - column-size: is-6
   title: '01'
   subtitle: logo
@@ -35,10 +37,6 @@ columns:
   title: '03'
   subtitle: collateral
   para: Additional Material
-Field name:
-- head: value
-  Key: 
-- body: stuff
 layout: works
 ---
 
