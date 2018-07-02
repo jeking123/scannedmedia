@@ -18,19 +18,27 @@
     <div class="hero container section" id="works">
       <div class="columns is-multiline is-marginless is-paddingless">
         {% for item in page.columns %}
-          {% if item == "logo-" or item == "font" or item == "collateral" %}
+          {% if item.is-catagory %}
           <div class="column {{item.column-size}} is-marginless is-paddingless works">
             <div class="column-size-{{item.column-size}}" style="background-image:url({{item.image}});">
-              <div class="column-content">
-
+              <div class="column-content content">
+                <p class="title is-underlined big-numbers">{{item.title}}</p>
+                <h3 class="has-font-weight-light is-size-1">{{item.subtitle}}</h3>
+                <h4 class="subtitle is-capitalized is-size-3">{{item.para}}</h4>
               </div>
             </div>
           </div>
           {% else %}
           <div class="column {{item.column-size}} is-marginless is-paddingless works">
             <div class="column-size-{{item.column-size}}" style="background-image:url({{item.image}});">
-              <div class="column-content">
-
+              <div class="column-content content">
+                {% if item.is-head %}
+                <h1>{{page.title}}</h1>
+                <h2>{{page.subtitle}}</h2>
+                {% endif %}
+                {% if item.is-body %}
+                <p>{{content}}</p>
+                {% endif %}
               </div>
             </div>
           </div>

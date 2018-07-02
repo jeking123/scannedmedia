@@ -103,7 +103,11 @@ body {
   width: 100%;
   height: 100%;
 }
-
+.big-numbers {
+  font-weight:900; 
+  font-size:20rem; 
+  text-decoration:underline;
+}
 #posts {
   padding-top:45px;
   padding-bottom:65px;
@@ -207,6 +211,9 @@ body {
   flex:none;
   width:100%;
   }
+  .big-numbers {
+    font-size:15rem; 
+  }
 }
 @media (max-width:  768px) { // Mobile
   .tablet {
@@ -238,5 +245,8 @@ body {
   #work .column:nth-child(1),#work .column:nth-child(2){
     flex:none;
     width:100%;
+  }
+  .big-numbers {
+    font-size:10rem; 
   }
 }
