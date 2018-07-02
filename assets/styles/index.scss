@@ -257,7 +257,7 @@ body {
   }
   .column-body-content {
     padding:5%;
-    text-shadow: 2px 2px white;
+    background-color: rgba(255,255,255.6);
   }
   #work .column:nth-child(1),#work .column:nth-child(2){
     flex:none;
