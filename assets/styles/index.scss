@@ -251,6 +251,10 @@ body {
     flex:none;
     width:100%;
   }
+  .column-body-content {
+    width:99%;
+    text-shadow: 2px 2px white;
+  }
   #work .column:nth-child(1),#work .column:nth-child(2){
     flex:none;
     width:100%;
