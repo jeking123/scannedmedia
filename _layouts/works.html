@@ -21,11 +21,11 @@
           {% if item.is-catagory %}
           <div class="column {{item.column-size}} is-marginless is-paddingless works">
             <div class="column-size-{{item.column-size}}" style="background-image:url({{item.image}});">
-              <div class="column-content content">
+              <div class="column-content">
                 <div>
-                  <p class="title is-underlined big-numbers">{{item.title}}</p>
-                  <h3 class="has-font-weight-light is-size-1">{{item.subtitle}}</h3>
-                  <h4 class="subtitle is-capitalized is-size-3">{{item.para}}</h4>
+                  <p class="title is-underlined big-numbers is-marginless">{{item.title}}</p>
+                  <h3 class="has-font-weight-light is-size-1 is-marginless">{{item.subtitle}}</h3>
+                  <h4 class="subtitle is-capitalized is-size-3 is-marginless">{{item.para}}</h4>
                 </div>
               </div>
             </div>
@@ -33,12 +33,12 @@
           {% else %}
           <div class="column {{item.column-size}} is-marginless is-paddingless works">
             <div class="column-size-{{item.column-size}}" style="background-image:url({{item.image}});">
-              <div class="column-content content">
+              <div class="column-content">
                 {% if item.is-body %}
-                <div>
-                  <h1>{{page.title}}</h1>
-                  <h2>{{page.subtitle}}</h2>
-                  <p>{{content}}</p>
+                <div style="width:60%; margin: 0 auto;">
+                  <h1 class="has-text-weight-bold">{{page.title}}</h1>
+                  <h2 class="has-text-weight-medium">{{page.subtitle}}</h2>
+                  <p class="is-size-7">{{content}}</p>
                 </div>
                 {% endif %}
               </div>
