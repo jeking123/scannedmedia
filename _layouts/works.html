@@ -17,6 +17,7 @@
     <div class="hero container section" id="works">
       <div class="columns is-multiline is-marginless is-paddingless">
         {% for item in works.columns %}
+          <p>This is working. . .</p>
           {% if item == "logo-" or item == "font" or item == "collateral" %}
           <div class="column {{item.column-size}} is-marginless is-paddingless works" style="background-image:url({{item.image}});">
 
