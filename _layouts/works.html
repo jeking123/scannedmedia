@@ -17,12 +17,14 @@
     <div class="hero container section" id="works">
       <div class="columns is-multiline is-marginless is-paddingless">
         {% for item in works.columns %}
-          {% if item == "logo-" %}
-          <div class="column {{column-size}} is-marginless is-paddingless works" style="background-image:url({{image}});">
+          {% if item == "logo-" or item == "font" or item == "collateral" %}
+          <div class="column {{item.column-size}} is-marginless is-paddingless works" style="background-image:url({{item.image}});">
 
           </div>
-          
+          {% else %}
+          <div class="column {{item.column-size}} is-marginless is-paddingless works" style="background-image:url({{item.image}});">
 
+          </div>
 
           {% endif %}
         {% endfor %}
