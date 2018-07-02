@@ -36,9 +36,11 @@
               <div class="column-content">
                 {% if item.is-body %}
                 <div class="has-text-centered is-size-7 column-body-content">
-                  <h1 class="has-text-weight-bold is-size-2">{{page.title}}</h1>
-                  <h2 class="has-text-weight-medium is-size-5">{{page.subtitle}}</h2>
-                  {{content}}
+                  <div>
+                    <h1 class="has-text-weight-bold is-size-2">{{page.title}}</h1>
+                    <h2 class="has-text-weight-medium is-size-5">{{page.subtitle}}</h2>
+                    {{content}}
+                  </div>
                 </div>
                 {% endif %}
               </div>
