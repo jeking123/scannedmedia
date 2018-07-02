@@ -18,7 +18,7 @@
     <div class="hero container section" id="works">
       <div class="columns is-multiline is-marginless is-paddingless">
         {% for item in page.columns %}
-          {% if item == "logo-" or item == "font" or item == "collateral" %}
+          {% if item.subtitle == "logo" or item.subtitle == "font" or.subtitle item == "collateral" %}
           <div class="column {{item.column-size}} is-marginless is-paddingless works" style="background-image:url({{item.image}});">
             <p>{{item}}</p>
             <p>this is a special catagory</p>
