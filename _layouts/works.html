@@ -22,9 +22,11 @@
           <div class="column {{item.column-size}} is-marginless is-paddingless works">
             <div class="column-size-{{item.column-size}}" style="background-image:url({{item.image}});">
               <div class="column-content content">
-                <p class="title is-underlined big-numbers">{{item.title}}</p>
-                <h3 class="has-font-weight-light is-size-1">{{item.subtitle}}</h3>
-                <h4 class="subtitle is-capitalized is-size-3">{{item.para}}</h4>
+                <div>
+                  <p class="title is-underlined big-numbers">{{item.title}}</p>
+                  <h3 class="has-font-weight-light is-size-1">{{item.subtitle}}</h3>
+                  <h4 class="subtitle is-capitalized is-size-3">{{item.para}}</h4>
+                </div>
               </div>
             </div>
           </div>
@@ -33,9 +35,11 @@
             <div class="column-size-{{item.column-size}}" style="background-image:url({{item.image}});">
               <div class="column-content content">
                 {% if item.is-body %}
-                <h1>{{page.title}}</h1>
-                <h2>{{page.subtitle}}</h2>
-                <p>{{content}}</p>
+                <div>
+                  <h1>{{page.title}}</h1>
+                  <h2>{{page.subtitle}}</h2>
+                  <p>{{content}}</p>
+                </div>
                 {% endif %}
               </div>
             </div>
