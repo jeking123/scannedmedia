@@ -246,6 +246,9 @@ body {
     flex:none;
     width:100%;
   }
+  .column-size-is-12:after {
+    padding-bottom: 100%;
+  }
   .big-numbers {
     font-size:10rem; 
   }

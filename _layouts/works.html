@@ -32,11 +32,9 @@
           <div class="column {{item.column-size}} is-marginless is-paddingless works">
             <div class="column-size-{{item.column-size}}" style="background-image:url({{item.image}});">
               <div class="column-content content">
-                {% if item.is-head %}
+                {% if item.is-body %}
                 <h1>{{page.title}}</h1>
                 <h2>{{page.subtitle}}</h2>
-                {% endif %}
-                {% if item.is-body %}
                 <p>{{content}}</p>
                 {% endif %}
               </div>
