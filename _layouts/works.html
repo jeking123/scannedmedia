@@ -14,10 +14,10 @@
     adding container contrains the size of the boxes better
     Maybe add my own container sizing for different media queries.
 -->
-    <!--
+    
     <div class="hero container section" id="works">
       <div class="columns is-multiline is-marginless is-paddingless">
-        {% for item in site.work.cole-sager.columns %}
+        {% for item in page.columns %}
           <p>Is this working. . .</p>
           {% if item == "logo-" or item == "font" or item == "collateral" %}
           <div class="column {{item.column-size}} is-marginless is-paddingless works" style="background-image:url({{item.image}});">
@@ -31,8 +31,8 @@
           {% endif %}
         {% endfor %}
       </div>
-      -->
       
+      <!--
       <div class="tile is-ancestor">
         <div class="tile is-parent is-12" style="background: url({{page.columns.head-image.image}}) center / cover; width:100%; height:500px;">
           <div class="tile is-child">
