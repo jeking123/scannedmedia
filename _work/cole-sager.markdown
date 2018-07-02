@@ -47,7 +47,9 @@ columns:
     subtitle: collateral
     para: Additional Material
 Field name:
-- Key 1: value
+- head: value
+  Key: 
+- body: stuff
 layout: works
 ---
 
