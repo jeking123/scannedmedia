@@ -20,15 +20,20 @@
         {% for item in page.columns %}
           {% if item == "logo-" or item == "font" or item == "collateral" %}
           <div class="column {{item.column-size}} is-marginless is-paddingless works" style="background-image:url({{item.image}});">
-            <p>{{item}}</p>
-            <p>this is a special catagory</p>
+            <div class="column-size-{{item.column-size}}">
+              <div class="column-content">
+
+              </div>
+            </div>
           </div>
           {% else %}
           <div class="column {{item.column-size}} is-marginless is-paddingless works" style="background-image:url({{item.image}});">
-            <p>{{item.subtitle}}</p>
-            <p>this is not</p>
-          </div>
+            <div class="column-size-{{item.column-size}}">
+              <div class="column-content">
 
+              </div>
+            </div>
+          </div>
           {% endif %}
         {% endfor %}
       </div>
