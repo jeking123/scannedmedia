@@ -19,16 +19,16 @@
       <div class="columns is-multiline is-marginless is-paddingless">
         {% for item in page.columns %}
           {% if item == "logo-" or item == "font" or item == "collateral" %}
-          <div class="column {{item.column-size}} is-marginless is-paddingless works" style="background-image:url({{item.image}});">
-            <div class="column-size-{{item.column-size}}">
+          <div class="column {{item.column-size}} is-marginless is-paddingless works">
+            <div class="column-size-{{item.column-size}}" style="background-image:url({{item.image}});">
               <div class="column-content">
 
               </div>
             </div>
           </div>
           {% else %}
-          <div class="column {{item.column-size}} is-marginless is-paddingless works" style="background-image:url({{item.image}});">
-            <div class="column-size-{{item.column-size}}">
+          <div class="column {{item.column-size}} is-marginless is-paddingless works">
+            <div class="column-size-{{item.column-size}}" style="background-image:url({{item.image}});">
               <div class="column-content">
 
               </div>
