@@ -9,7 +9,6 @@ subtitle: branding + identity
 columns:
 - column-size: is-12
   image: "/uploads/cole-sagerArtboard-4-bg-image-.jpg"
-  is-head: true
 - column-size: is-12
   image: "/uploads/cole-sagerArtboard-5-bg-image-.jpg"
   is-body: true
@@ -17,6 +16,7 @@ columns:
   title: '01'
   subtitle: logo
   para: Be The Impact
+  is-catagory: true
 - column-size: is-6
   image: "/uploads/cole-sagerArtboard-11-bg-image-.jpg"
 - column-size: is-6
@@ -29,6 +29,7 @@ columns:
   title: '02'
   subtitle: font
   para: supporting type
+  is-catagory: true
 - column-size: is-6
   image: "/uploads/cole-sagerArtboard-15-bg-image-.jpg"
 - column-size: is-6
@@ -37,6 +38,7 @@ columns:
   title: '03'
   subtitle: collateral
   para: Additional Material
+  is-catagory: true
 layout: works
 ---
 
