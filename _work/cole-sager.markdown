@@ -37,21 +37,15 @@ columns:
     para: supporting type
   font-image1:
     column-size: is-6
-    image: "/uploads/cole-sagerArtboard-13-bg-image-.jpg"
+    image: "/uploads/cole-sagerArtboard-15-bg-image-.jpg"
   font-image2:
     column-size: is-6
-    image: "/uploads/cole-sagerArtboard-14-bg-image-.jpg"
+    image: "/uploads/cole-sagerArtboard-16-bg-image-.jpg"
   collateral:
     column-size: is-12
     title: '03'
     subtitle: collateral
     para: Additional Material
-  font-image1:
-    column-size: is-6
-    image: "/uploads/cole-sagerArtboard-15-bg-image-.jpg"
-  font-image2:
-    column-size: is-6
-    image: "/uploads/cole-sagerArtboard-16-bg-image-.jpg"
 layout: works
 ---
 

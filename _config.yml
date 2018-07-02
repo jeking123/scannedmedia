@@ -91,12 +91,6 @@ section:
       title: 3
       subtitle: collateral
       para: Additional Material
-    font-image1:
-      column-size: is-6
-      image: 
-    font-image2:
-      column-size: is-6
-      image: 
 - scope:
     path: ''
     type: services
