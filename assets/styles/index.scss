@@ -108,9 +108,13 @@ body {
 }
 
 .column-body-content {
-  width:60%;
-  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  padding: 15%;
   text-shadow: 2px 2px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .big-numbers {
   font-weight:900; 
@@ -252,7 +256,7 @@ body {
     width:100%;
   }
   .column-body-content {
-    width:99%;
+    padding:5%;
     text-shadow: 2px 2px white;
   }
   #work .column:nth-child(1),#work .column:nth-child(2){
