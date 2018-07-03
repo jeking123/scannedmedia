@@ -39,6 +39,10 @@ columns:
   subtitle: collateral
   para: Additional Material
   is-catagory: true
+- column-size: is-6
+  image: "/uploads/cole-sagerArtboard-15-bg-image-.jpg"
+- column-size: is-6
+  image: "/uploads/cole-sagerArtboard-16-bg-image-.jpg"
 layout: works
 ---
 

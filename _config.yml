@@ -62,7 +62,7 @@ defaults:
     - column-size: is-6
       title: 2
       subtitle: font
-      para: supporting type
+      para: Supporting Type
       is-catagory: true
     - column-size: is-6
       image: 
@@ -73,6 +73,10 @@ defaults:
       subtitle: collateral
       para: Additional Material
       is-catagory: true
+    - column-size: is-6
+      image: 
+    - column-size: is-6
+      image: 
 - scope:
     path: ''
     type: services
