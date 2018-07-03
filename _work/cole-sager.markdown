@@ -6,6 +6,7 @@ categories:
 - app
 - website
 subtitle: branding + identity
+head-image: "/uploads/cole-sagerArtboard-4-bg-image-.jpg"
 columns:
 - column-size: is-12
   image: "/uploads/cole-sagerArtboard-4-bg-image-.jpg"
