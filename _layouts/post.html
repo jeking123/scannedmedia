@@ -19,7 +19,7 @@
       <div class="">
         <div class="content">
           <h3 class="is-size-6 is-uppercase">{{page.catagory}}</h3>
-          <p class="is-size-7 is-capitalized">Written by {{page.author}} on <time datetime="{{posts[0].date}}" >{{page.date}}</time></p>
+          <p class="is-size-7 is-capitalized">Written by {{page.author}} on <time datetime="{{posts[0].date}}" >{{page.date | date: "%-d %B %Y" }}</time></p>
         </div>
       </div>
       <article class="section content is-paddingless-horizontal">
